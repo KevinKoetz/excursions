@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-background: black;
+    --clr-accent: aquamarine;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--clr-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    color: white;
+    margin: 1em;
+}
+
+a {
+    font-size: 1.6rem;
+    color: var(--clr-accent);
+    margin-bottom: 2em;
+}
+
+h2, h3 {
+    color: white;
+    font-size: 4.2rem;
+    font-weight: 300;
+    margin: 1em;
+}
+
+p {
+    margin-bottom: 1em;
+    color: grey;
+    font-size: 2.1rem;
+}
+
+img:first-of-type {
+  margin-bottom: 1em;
+}
+
+#copy {
+    align-self: flex-end;
+}
